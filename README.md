@@ -1,14 +1,16 @@
 This project implements a voting system for a hypothetical government
 
-Before prod, all .PHP files will need to be used outside of the /html file in UNIX and links to them changed, so that they cannot be stolen by attackers.
+- Before prod, all .PHP files will need to be used outside of the /html file in UNIX and links to them changed, so that they cannot be stolen by attackers.
 
-Databases are to be handled by mysql. This means that mysql needs to be installed on the machine and running, before connecting to a database. This will be very inconvenient for active testing, try to work with it. We will standardize the database naming and columns for ease of testing. 
+- PHP cannot be included in html files in an unconfigured apache server. Ensure you do the proper configuration to enable inline php and php files. 
 
-Requirements:
+- Databases are to be handled by mysql. This means that mysql needs to be installed on the machine and running, before connecting to a database. This will be very inconvenient for active testing, try to work with it. We will standardize the database naming and columns for ease of testing. 
+
+Requirements (<span style="color:green">Text in green is already done.</span>):
 
 1. Landing page
-   - Display a welcome message and the different pages they can go to.
-   - Login button
+   - <span style="color:green">Display a welcome message and the different pages they can go to.</span>
+   - <span style="color:green">Login button.</span>
 3. Login/Auth mechanism
    - Login page that links to a PHP file
    - research and implement proper authentication
