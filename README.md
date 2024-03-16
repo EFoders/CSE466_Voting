@@ -1,5 +1,6 @@
 This project implements a voting system for a hypothetical government
 
+Before prod, all .PHP files will need to be used outside of the /html file in UNIX and links to them changed, so that they cannot be stolen by attackers.
 
 
 Requirements: 
