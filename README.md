@@ -2,10 +2,9 @@ This project implements a voting system for a hypothetical government
 
 Before prod, all .PHP files will need to be used outside of the /html file in UNIX and links to them changed, so that they cannot be stolen by attackers.
 
+Databases are to be handled by mysql. This means that mysql needs to be installed on the machine and running, before connecting to a database. This will be very inconvenient for active testing, try to work with it. We will standardize the database naming and columns for ease of testing. 
 
-Requirements: 
-
-
+Requirements:
 
 1. Landing page
    - Display a welcome message and the different pages they can go to.
