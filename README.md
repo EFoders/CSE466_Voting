@@ -25,3 +25,4 @@ Requirements:
 9. All Pages
    - All pages will have a nav bar to get between the different pages. For the landing page, if a person tries to go anywhere, they will be forced to login first
    - Login will not have a nav bar
+   - Anywhere where data is pushed to a database, parameterized statements will be used
