@@ -6,11 +6,11 @@ This project implements a voting system for a hypothetical government
 
 - Databases are to be handled by mysql. This means that mysql needs to be installed on the machine and running, before connecting to a database. This will be very inconvenient for active testing, try to work with it. We will standardize the database naming and columns for ease of testing. 
 
-Requirements (<span style="color:green">Text in green is already done.</span>):
+Requirements (<span style="color:green">Text in green or **bolded** is already done.</span>):
 
 1. Landing page
-   - <span style="color:green">Display a welcome message and the different pages they can go to.</span>
-   - <span style="color:green">Login button.</span>
+   - <span style="color:green">**Display a welcome message and the different pages they can go to**.</span>
+   - <span style="color:green">**Login button**.</span>
 3. Login/Auth mechanism
    - Login page that links to a PHP file
    - research and implement proper authentication
