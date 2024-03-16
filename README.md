@@ -12,7 +12,7 @@ Requirements:
 3. Login/Auth mechanism
    - Login page that links to a PHP file
    - research and implement proper authentication
-   - refrence the **users** table 
+   - pulls from the **users** table 
 5. View page
    - View page that links to a PHP file
    - The view page will display the current votes for candidates
