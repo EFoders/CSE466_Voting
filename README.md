@@ -9,8 +9,8 @@ This project implements a voting system for a hypothetical government
 Requirements (<span style="color:green">Text in green or **bolded** is already done.</span>):
 
 1. Landing page
-   - <span style="color:green">**Display a welcome message and the different pages they can go to**.</span>
-   - <span style="color:green">**Login button**.</span>
+   - <span style="color:green">**_Display a welcome message and the different pages they can go to_**.</span>
+   - <span style="color:green">**_Login button_**.</span>
 3. Login/Auth mechanism
    - Login page that links to a PHP file
    - research and implement proper authentication
