@@ -1,17 +1,10 @@
 <?php
-//session_start();
+session_start();
 
-//function match_found_in_database() {
-//    return True;
-//}
-
-//if (match_found_in_database()) {
-//    $_SESSION['loggedIn'] = true;
-//}
 
 // Check if the user is already logged in, if yes then redirect him to welcome page
-if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: /CSE466_Voting/view.html");
+if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] === true){
+    header("location: /CSE466_Voting/landing.html");
     exit;
 }
 
