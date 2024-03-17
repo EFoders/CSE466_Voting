@@ -16,14 +16,14 @@ Requirements (<span style="color:green">Text in green or **bolded** is already d
    - **research and implement proper authentication**
    - **pulls from the **users** table** 
 5. View page
-   - View page that links to a PHP file
-   - The view page will display the current votes for candidates
-   - This page will pull from the database **votes** table
+   - **View page that links to a PHP file**
+   -** The view page will display the current votes for candidates**
+   - **This page will pull from the database **votes** table**
 7. Voting Page
-   - Login page that links to a PHP file
-   - This page should send a post request with information containing information about the voter and the candidate they want to vote for
-   - this page will pull data for candidates from a **candidates** table 
-   - this page will send data to the DB **votes** table.
+   -** Login page that links to a PHP file**
+   - **This page should send a post request with information containing information about the voter and the candidate they want to vote for**
+   - **this page will pull data for candidates from a **candidates** table **
+   - **this page will send data to the DB **votes** table**.
 9. All Pages
-   - **All pages will have a nav bar to get between the different pages. For the landing page, if a person tries to go anywhere, they will be forced to login first**
-   - Anywhere where data is pushed to a database, parameterized statements will be used
+   - ****All pages will have a nav bar to get between the different pages. For the landing page, if a person tries to go anywhere, they will be forced to login first****
+   - **Anywhere where data is pushed to a database, parameterized statements will be used**
