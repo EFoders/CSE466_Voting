@@ -17,8 +17,8 @@ CREATE TABLE IF NOT EXISTS candidates (
 );
 
 CREATE TABLE IF NOT EXISTS votes (
-                            voteid int PRIMARY KEY ,
-                            userid int,
-                            candidateid int
-);
+                            voteid int AUTO_INCREMENT PRIMARY KEY ,
+                            voter varchar(255),
+                            candidate varchar(255)
+)AUTO_INCREMENT = 1;
 

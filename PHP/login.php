@@ -59,7 +59,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
                             // Store data in session variables
                             $_SESSION["loggedIn"] = true;
-//                            $_SESSION["username"] = $username;
+                            $_SESSION["username"] = $username;
 
                             // Redirect user to welcome page
                             header("location: view.html");

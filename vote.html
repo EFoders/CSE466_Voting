@@ -63,6 +63,19 @@
 
 <!--TODO Add text here-->
     <div class="w3-padding-large" id="main">
-        <h1>This is the voting page</h1>
+        <h1 CLASS="w3-center">Welcome to the Voting Page, <?php echo $_SESSION["username"]; ?></h1>
+
+        <form class = "w3 w3-center" action="/CSE466_Voting/PHP/vote_service.php" id="voteform", method="POST">
+            <input type="hidden" id="username" name="username" value="<?php $_SESSION["username"]?>">
+            <input  type="submit" value="Vote">
+            <select  name="vote" id="vote">
+                <?php getData()?>
+            </select>
+        </form>
+
+
+    </div>
+
+
 </body>
 </html>

@@ -4,6 +4,8 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
 <head>
     <meta charset="UTF-8">
     <title>View Results</title>
@@ -63,8 +65,16 @@
 
 <!--TODO Add text here-->
     <div class="w3-padding-large" id="main">
-        <h1>This is the viewing page</h1>
+        <h1 class="w3-center">Welcome to the Viewing Page, <?php echo $_SESSION["username"]; ?></h1>
+
+        <div class = "w3 w3-center" id="myPlot"></div>
+
     </div>
+
+<?php getGraph(); ?>
+
+
+
 
 </body>
 </html>
