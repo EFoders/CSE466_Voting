@@ -12,9 +12,9 @@ Requirements (<span style="color:green">Text in green or **bolded** is already d
    - <span style="color:green">**_Display a welcome message and the different pages they can go to_**.</span>
    - <span style="color:green">**_Login button_**.</span>
 3. Login/Auth mechanism
-   - Login page that links to a PHP file
-   - research and implement proper authentication
-   - pulls from the **users** table 
+   - **Login page that links to a PHP file**
+   - **research and implement proper authentication**
+   - **pulls from the **users** table** 
 5. View page
    - View page that links to a PHP file
    - The view page will display the current votes for candidates
@@ -25,6 +25,5 @@ Requirements (<span style="color:green">Text in green or **bolded** is already d
    - this page will pull data for candidates from a **candidates** table 
    - this page will send data to the DB **votes** table.
 9. All Pages
-   - All pages will have a nav bar to get between the different pages. For the landing page, if a person tries to go anywhere, they will be forced to login first
-   - Login will not have a nav bar
+   - **All pages will have a nav bar to get between the different pages. For the landing page, if a person tries to go anywhere, they will be forced to login first**
    - Anywhere where data is pushed to a database, parameterized statements will be used
